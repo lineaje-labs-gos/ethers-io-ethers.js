@@ -99,7 +99,13 @@
     "scrypt-js": "3.0.1",
     "solc": "0.7.1",
     "tiny-inflate": "1.0.3",
-    "ws": "8.18.0"
+    "ws": ">=8.21.1"
   },
-  "version": "5.8.0-lineaje-01"
+  "version": "5.8.0-lineaje-01",
+  "overrides": {
+    "ws": ">=8.21.1"
+  },
+  "resolutions": {
+    "ws": ">=8.21.1"
+  }
 }
