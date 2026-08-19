@@ -101,6 +101,12 @@
     "ethersjs"
   ],
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "main": "./lib.commonjs/index.js",
   "module": "./lib.esm/index.js",
   "name": "ethers",
@@ -110,7 +116,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "https://github.com/lineaje-labs-gos/ethers-io-ethers.js"
   },
   "scripts": {
     "_build-dist": "rollup -c && uglifyjs ./dist/ethers.js -o ./dist/ethers.min.js && uglifyjs ./dist/ethers.umd.js -o ./dist/ethers.umd.min.js && uglifyjs ./dist/wordlists-extra.js -o ./dist/wordlists-extra.min.js",
@@ -131,5 +137,5 @@
     "test-esm": "mocha --trace-warnings --reporter ./reporter.cjs ./lib.esm/_tests/test-*.js"
   },
   "sideEffects": false,
-  "version": "6.16.0"
+  "version": "6.16.0-lineaje-01"
 }
