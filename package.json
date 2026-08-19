@@ -15,7 +15,7 @@
     "@types/node": "22.7.5",
     "aes-js": "4.0.0-beta.5",
     "tslib": "2.7.0",
-    "ws": "8.17.1"
+    "ws": ">=8.21.3"
   },
   "description": "A complete and compact Ethereum library, for dapps, wallets and any other tools.",
   "devDependencies": {
@@ -137,5 +137,11 @@
     "test-esm": "mocha --trace-warnings --reporter ./reporter.cjs ./lib.esm/_tests/test-*.js"
   },
   "sideEffects": false,
-  "version": "6.16.0-lineaje-01"
+  "version": "6.16.0-lineaje-01",
+  "overrides": {
+    "ws": ">=8.21.3"
+  },
+  "resolutions": {
+    "ws": ">=8.21.3"
+  }
 }
