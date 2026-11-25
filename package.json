@@ -100,5 +100,6 @@
     "solc": "0.7.1",
     "tiny-inflate": "1.0.3",
     "ws": "8.18.0"
-  }
+  },
+  "version": "5.8.0-lineaje-02-lineaje-02"
 }
